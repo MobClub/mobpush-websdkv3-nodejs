@@ -1,0 +1,40 @@
+{
+  "name": "mobpush-api-nodejs-client",
+  "version": "0.9.0",
+  "description": "MobPush API for NodeJS in www.mob.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test/*.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "nyc": "^15.1.0",
+    "mocha": "^8.0.1"
+  },
+  "keywords": [
+    "mob",
+    "mobtech",
+    "sdk",
+    "push",
+    "mobpush"
+  ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobClub/mobpush-websdkv3-nodejs.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/MobClub/mobpush-websdkv3-nodejs/issues"
+  },
+  "homepage": "https://www.mob.com",
+  "license": "MIT"
+}
