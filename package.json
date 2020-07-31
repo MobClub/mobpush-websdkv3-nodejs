@@ -1,12 +1,13 @@
 {
   "name": "@mobtech/mobpush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MobPush API for NodeJS in www.mob.com",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha test/*.js"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
