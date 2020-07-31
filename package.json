@@ -1,6 +1,6 @@
 {
-  "name": "mobpush-api-nodejs-client",
-  "version": "0.9.0",
+  "name": "@mobtech/mobpush",
+  "version": "1.0.0",
   "description": "MobPush API for NodeJS in www.mob.com",
   "main": "index.js",
   "scripts": {

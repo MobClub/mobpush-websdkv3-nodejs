@@ -1,8 +1,6 @@
 <h1><a href="https://www.mob.com/wiki/detailed/?wiki=MobPushRestAPIfenlei1333&id=136" alt="mobpush"><img src="https://static.mob.com/common/images/logo_mobpush.png" align="center" alt="MobPush" width="25" height="25"> MobPush</a>
 </h1>
 
-![image](https://github.com/MOBX/MOB-SMS-WEBAPI/blob/master/doc/images/logo.png)
-
 **[MobPush API for NodeJS](https://www.mob.com/wiki/detailed/?wiki=MobPushRestAPIfenlei1333&id=136)**
 为了帮助开发者更方便接入MobPush免费推送SDK，提供完整的API接口的NodeJS实现，包含设备操作相关接口、推送操作相关接口以及公共接口。
 
@@ -39,12 +37,12 @@
 ## 安装 
 
 ```
-$ npm install mobpush-api-node-client
+$ npm install @mobtech/mobpush
 ```
 
 ## 使用示例 
 ```js
-const MobPush = require('mobpush-api-node-client);
+const MobPush = require("@mobtech/mobpush");
 const api = new MobPush(appkey, appSecret);
 let result = await api.pushAll(param1, param2, param3, ...);
 ```
